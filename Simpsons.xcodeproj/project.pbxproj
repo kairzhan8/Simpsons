@@ -9,21 +9,33 @@
 /* Begin PBXBuildFile section */
 		55F9541825223CDA0080DC80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F9541725223CDA0080DC80 /* AppDelegate.swift */; };
 		55F9541A25223CDA0080DC80 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F9541925223CDA0080DC80 /* SceneDelegate.swift */; };
-		55F9541C25223CDA0080DC80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F9541B25223CDA0080DC80 /* ViewController.swift */; };
+		55F9541C25223CDA0080DC80 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F9541B25223CDA0080DC80 /* StartViewController.swift */; };
 		55F9541F25223CDA0080DC80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55F9541D25223CDA0080DC80 /* Main.storyboard */; };
 		55F9542125223CE10080DC80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55F9542025223CE10080DC80 /* Assets.xcassets */; };
 		55F9542425223CE10080DC80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55F9542225223CE10080DC80 /* LaunchScreen.storyboard */; };
+		55F9542E25223E0F0080DC80 /* StartViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F9542D25223E0F0080DC80 /* StartViewModelProtocol.swift */; };
+		55F9543025223E240080DC80 /* StartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F9542F25223E240080DC80 /* StartViewModel.swift */; };
+		55F9543325223F780080DC80 /* Simpson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F9543225223F780080DC80 /* Simpson.swift */; };
+		55F9543625223FDE0080DC80 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F9543525223FDE0080DC80 /* NetworkManager.swift */; };
+		E7097E22F309D10570B47FFA /* Pods_Simpsons.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF58BE3BF26073BEE6B33DB7 /* Pods_Simpsons.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		374F09B9E66671D10610FECE /* Pods-Simpsons.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Simpsons.debug.xcconfig"; path = "Target Support Files/Pods-Simpsons/Pods-Simpsons.debug.xcconfig"; sourceTree = "<group>"; };
 		55F9541425223CDA0080DC80 /* Simpsons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Simpsons.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55F9541725223CDA0080DC80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55F9541925223CDA0080DC80 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		55F9541B25223CDA0080DC80 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		55F9541B25223CDA0080DC80 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		55F9541E25223CDA0080DC80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		55F9542025223CE10080DC80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55F9542325223CE10080DC80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55F9542525223CE10080DC80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55F9542D25223E0F0080DC80 /* StartViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewModelProtocol.swift; sourceTree = "<group>"; };
+		55F9542F25223E240080DC80 /* StartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewModel.swift; sourceTree = "<group>"; };
+		55F9543225223F780080DC80 /* Simpson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simpson.swift; sourceTree = "<group>"; };
+		55F9543525223FDE0080DC80 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		66BBF34EA3F57A3C6066FEF7 /* Pods-Simpsons.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Simpsons.release.xcconfig"; path = "Target Support Files/Pods-Simpsons/Pods-Simpsons.release.xcconfig"; sourceTree = "<group>"; };
+		AF58BE3BF26073BEE6B33DB7 /* Pods_Simpsons.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Simpsons.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7097E22F309D10570B47FFA /* Pods_Simpsons.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +55,8 @@
 			children = (
 				55F9541625223CDA0080DC80 /* Simpsons */,
 				55F9541525223CDA0080DC80 /* Products */,
+				ACCE1D4BAF8A77662EB046DE /* Pods */,
+				EEC18221E9885E5CE10A4849 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +71,61 @@
 		55F9541625223CDA0080DC80 /* Simpsons */ = {
 			isa = PBXGroup;
 			children = (
+				55F9542B25223DCE0080DC80 /* Start */,
+				55F9543125223F500080DC80 /* Models */,
+				55F9543425223FC30080DC80 /* Services */,
 				55F9541725223CDA0080DC80 /* AppDelegate.swift */,
 				55F9541925223CDA0080DC80 /* SceneDelegate.swift */,
-				55F9541B25223CDA0080DC80 /* ViewController.swift */,
 				55F9541D25223CDA0080DC80 /* Main.storyboard */,
 				55F9542025223CE10080DC80 /* Assets.xcassets */,
 				55F9542225223CE10080DC80 /* LaunchScreen.storyboard */,
 				55F9542525223CE10080DC80 /* Info.plist */,
 			);
 			path = Simpsons;
+			sourceTree = "<group>";
+		};
+		55F9542B25223DCE0080DC80 /* Start */ = {
+			isa = PBXGroup;
+			children = (
+				55F9541B25223CDA0080DC80 /* StartViewController.swift */,
+				55F9542D25223E0F0080DC80 /* StartViewModelProtocol.swift */,
+				55F9542F25223E240080DC80 /* StartViewModel.swift */,
+			);
+			path = Start;
+			sourceTree = "<group>";
+		};
+		55F9543125223F500080DC80 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				55F9543225223F780080DC80 /* Simpson.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		55F9543425223FC30080DC80 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				55F9543525223FDE0080DC80 /* NetworkManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		ACCE1D4BAF8A77662EB046DE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				374F09B9E66671D10610FECE /* Pods-Simpsons.debug.xcconfig */,
+				66BBF34EA3F57A3C6066FEF7 /* Pods-Simpsons.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EEC18221E9885E5CE10A4849 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF58BE3BF26073BEE6B33DB7 /* Pods_Simpsons.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +135,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 55F9542825223CE10080DC80 /* Build configuration list for PBXNativeTarget "Simpsons" */;
 			buildPhases = (
+				A351E73EF869FEFC970D4300 /* [CP] Check Pods Manifest.lock */,
 				55F9541025223CDA0080DC80 /* Sources */,
 				55F9541125223CDA0080DC80 /* Frameworks */,
 				55F9541225223CDA0080DC80 /* Resources */,
+				89E373DE3FAA440E977EFAFA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +196,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		89E373DE3FAA440E977EFAFA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Simpsons/Pods-Simpsons-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Simpsons/Pods-Simpsons-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Simpsons/Pods-Simpsons-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A351E73EF869FEFC970D4300 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Simpsons-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		55F9541025223CDA0080DC80 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55F9541C25223CDA0080DC80 /* ViewController.swift in Sources */,
+				55F9543025223E240080DC80 /* StartViewModel.swift in Sources */,
+				55F9541C25223CDA0080DC80 /* StartViewController.swift in Sources */,
 				55F9541825223CDA0080DC80 /* AppDelegate.swift in Sources */,
+				55F9543625223FDE0080DC80 /* NetworkManager.swift in Sources */,
 				55F9541A25223CDA0080DC80 /* SceneDelegate.swift in Sources */,
+				55F9542E25223E0F0080DC80 /* StartViewModelProtocol.swift in Sources */,
+				55F9543325223F780080DC80 /* Simpson.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +391,7 @@
 		};
 		55F9542925223CE10080DC80 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 374F09B9E66671D10610FECE /* Pods-Simpsons.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +410,7 @@
 		};
 		55F9542A25223CE10080DC80 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66BBF34EA3F57A3C6066FEF7 /* Pods-Simpsons.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
