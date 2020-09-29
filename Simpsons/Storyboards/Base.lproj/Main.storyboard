@@ -36,7 +36,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Simpsons" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sQU-5X-fW3" customClass="SpringLabel" customModule="Spring">
-                                <rect key="frame" x="38" y="479.5" width="338.5" height="57"/>
+                                <rect key="frame" x="37.5" y="479.5" width="339" height="57"/>
                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="45"/>
                                 <color key="textColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -99,11 +99,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleAspectFit" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="753" id="ecN-Mr-CNt" customClass="QuoteTableViewCell" customModule="Simpsons" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="28" width="414" height="753"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleAspectFit" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="777" id="ecN-Mr-CNt" customClass="QuoteTableViewCell" customModule="Simpsons" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="414" height="777"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ecN-Mr-CNt" id="buS-VD-yUj">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="753"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="777"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quotes by  The Simpsons" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="nJg-fM-bca">
@@ -127,13 +127,13 @@
                                             <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="small"/>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="37X-Vs-uB5">
-                                            <rect key="frame" x="180.5" y="513.5" width="53.5" height="23"/>
+                                            <rect key="frame" x="180.5" y="513.5" width="53" height="23"/>
                                             <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="18"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0ho-Tu-v2b">
-                                            <rect key="frame" x="83.5" y="652" width="247" height="50"/>
+                                            <rect key="frame" x="83.5" y="576.5" width="247" height="50"/>
                                             <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="30"/>
                                             <state key="normal" title="Show next one">
                                                 <color key="titleColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -147,7 +147,6 @@
                                     <constraints>
                                         <constraint firstAttribute="trailingMargin" secondItem="ZWa-wx-fDf" secondAttribute="trailing" constant="20" id="0qJ-mz-Fl5"/>
                                         <constraint firstItem="nJg-fM-bca" firstAttribute="top" secondItem="buS-VD-yUj" secondAttribute="topMargin" constant="20" id="2UH-8K-rRd"/>
-                                        <constraint firstAttribute="bottomMargin" secondItem="0ho-Tu-v2b" secondAttribute="bottom" constant="40" id="4cV-0G-Y7E"/>
                                         <constraint firstItem="37X-Vs-uB5" firstAttribute="centerX" secondItem="buS-VD-yUj" secondAttribute="centerX" id="DEe-rN-EPH"/>
                                         <constraint firstItem="nJg-fM-bca" firstAttribute="centerX" secondItem="buS-VD-yUj" secondAttribute="centerX" id="Fcg-oq-BZ5"/>
                                         <constraint firstItem="ZWa-wx-fDf" firstAttribute="leading" secondItem="buS-VD-yUj" secondAttribute="leadingMargin" constant="20" id="LFv-Ti-aYP"/>
@@ -155,6 +154,7 @@
                                         <constraint firstItem="qze-4b-Vw8" firstAttribute="centerX" secondItem="buS-VD-yUj" secondAttribute="centerX" id="W3o-Ek-bqA"/>
                                         <constraint firstItem="ZWa-wx-fDf" firstAttribute="top" secondItem="nJg-fM-bca" secondAttribute="bottom" constant="20" id="kHb-Sa-gg8"/>
                                         <constraint firstItem="37X-Vs-uB5" firstAttribute="top" secondItem="qze-4b-Vw8" secondAttribute="bottom" constant="20" id="mL4-UK-BZy"/>
+                                        <constraint firstItem="0ho-Tu-v2b" firstAttribute="top" secondItem="37X-Vs-uB5" secondAttribute="bottom" constant="40" id="qkl-1z-5p2"/>
                                         <constraint firstItem="qze-4b-Vw8" firstAttribute="top" secondItem="ZWa-wx-fDf" secondAttribute="bottom" constant="20" id="v23-mo-mxN"/>
                                     </constraints>
                                 </tableViewCellContentView>

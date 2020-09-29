@@ -51,6 +51,14 @@ class QuoteTableViewController: UITableViewController {
     // MARK: - Table view delegate
     
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        UIScreen.main.bounds.height - 30
+        if UIScreen.main.bounds.height < 800 {
+            return UIScreen.main.bounds.height + 100
+        } else {
+            return UIScreen.main.bounds.height - 80
+        }
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
     }
 }
