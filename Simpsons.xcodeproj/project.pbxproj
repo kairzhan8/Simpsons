@@ -3,10 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55634DA42522790700B452C8 /* QuoteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55634DA32522790700B452C8 /* QuoteTableViewController.swift */; };
+		55634DA62522793F00B452C8 /* QuoteViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55634DA52522793F00B452C8 /* QuoteViewModelProtocol.swift */; };
+		55634DA82522794E00B452C8 /* QuoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55634DA72522794E00B452C8 /* QuoteViewModel.swift */; };
+		55634DAD252279E800B452C8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55634DAC252279E800B452C8 /* Default-568h@2x.png */; };
+		55634DB02522813D00B452C8 /* QuoteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55634DAF2522813D00B452C8 /* QuoteTableViewCell.swift */; };
+		55634DB22522816800B452C8 /* QuoteTableViewCellViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55634DB12522816800B452C8 /* QuoteTableViewCellViewModelProtocol.swift */; };
+		55634DB42522817B00B452C8 /* QuoteTableViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55634DB32522817B00B452C8 /* QuoteTableViewCellViewModel.swift */; };
+		55634DB62522833E00B452C8 /* ImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55634DB52522833E00B452C8 /* ImageManager.swift */; };
 		55F9541825223CDA0080DC80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F9541725223CDA0080DC80 /* AppDelegate.swift */; };
 		55F9541A25223CDA0080DC80 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F9541925223CDA0080DC80 /* SceneDelegate.swift */; };
 		55F9541C25223CDA0080DC80 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F9541B25223CDA0080DC80 /* StartViewController.swift */; };
@@ -22,6 +30,14 @@
 
 /* Begin PBXFileReference section */
 		374F09B9E66671D10610FECE /* Pods-Simpsons.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Simpsons.debug.xcconfig"; path = "Target Support Files/Pods-Simpsons/Pods-Simpsons.debug.xcconfig"; sourceTree = "<group>"; };
+		55634DA32522790700B452C8 /* QuoteTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteTableViewController.swift; sourceTree = "<group>"; };
+		55634DA52522793F00B452C8 /* QuoteViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteViewModelProtocol.swift; sourceTree = "<group>"; };
+		55634DA72522794E00B452C8 /* QuoteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteViewModel.swift; sourceTree = "<group>"; };
+		55634DAC252279E800B452C8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		55634DAF2522813D00B452C8 /* QuoteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteTableViewCell.swift; sourceTree = "<group>"; };
+		55634DB12522816800B452C8 /* QuoteTableViewCellViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteTableViewCellViewModelProtocol.swift; sourceTree = "<group>"; };
+		55634DB32522817B00B452C8 /* QuoteTableViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteTableViewCellViewModel.swift; sourceTree = "<group>"; };
+		55634DB52522833E00B452C8 /* ImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageManager.swift; sourceTree = "<group>"; };
 		55F9541425223CDA0080DC80 /* Simpsons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Simpsons.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55F9541725223CDA0080DC80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55F9541925223CDA0080DC80 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -50,9 +66,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		55634DA2252272AE00B452C8 /* Quote */ = {
+			isa = PBXGroup;
+			children = (
+				55634DA32522790700B452C8 /* QuoteTableViewController.swift */,
+				55634DA52522793F00B452C8 /* QuoteViewModelProtocol.swift */,
+				55634DA72522794E00B452C8 /* QuoteViewModel.swift */,
+				55634DAE2522810A00B452C8 /* QuoteTableViewCell */,
+			);
+			path = Quote;
+			sourceTree = "<group>";
+		};
+		55634DA9252279A900B452C8 /* Supports */ = {
+			isa = PBXGroup;
+			children = (
+				55F9541925223CDA0080DC80 /* SceneDelegate.swift */,
+				55F9541725223CDA0080DC80 /* AppDelegate.swift */,
+				55F9542525223CE10080DC80 /* Info.plist */,
+			);
+			path = Supports;
+			sourceTree = "<group>";
+		};
+		55634DAA252279C000B452C8 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				55F9541D25223CDA0080DC80 /* Main.storyboard */,
+				55F9542225223CE10080DC80 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		55634DAB252279D500B452C8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				55F9542025223CE10080DC80 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		55634DAE2522810A00B452C8 /* QuoteTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				55634DAF2522813D00B452C8 /* QuoteTableViewCell.swift */,
+				55634DB12522816800B452C8 /* QuoteTableViewCellViewModelProtocol.swift */,
+				55634DB32522817B00B452C8 /* QuoteTableViewCellViewModel.swift */,
+			);
+			path = QuoteTableViewCell;
+			sourceTree = "<group>";
+		};
 		55F9540B25223CDA0080DC80 = {
 			isa = PBXGroup;
 			children = (
+				55634DAC252279E800B452C8 /* Default-568h@2x.png */,
 				55F9541625223CDA0080DC80 /* Simpsons */,
 				55F9541525223CDA0080DC80 /* Products */,
 				ACCE1D4BAF8A77662EB046DE /* Pods */,
@@ -71,15 +136,13 @@
 		55F9541625223CDA0080DC80 /* Simpsons */ = {
 			isa = PBXGroup;
 			children = (
+				55634DA2252272AE00B452C8 /* Quote */,
 				55F9542B25223DCE0080DC80 /* Start */,
 				55F9543125223F500080DC80 /* Models */,
 				55F9543425223FC30080DC80 /* Services */,
-				55F9541725223CDA0080DC80 /* AppDelegate.swift */,
-				55F9541925223CDA0080DC80 /* SceneDelegate.swift */,
-				55F9541D25223CDA0080DC80 /* Main.storyboard */,
-				55F9542025223CE10080DC80 /* Assets.xcassets */,
-				55F9542225223CE10080DC80 /* LaunchScreen.storyboard */,
-				55F9542525223CE10080DC80 /* Info.plist */,
+				55634DA9252279A900B452C8 /* Supports */,
+				55634DAA252279C000B452C8 /* Storyboards */,
+				55634DAB252279D500B452C8 /* Resources */,
 			);
 			path = Simpsons;
 			sourceTree = "<group>";
@@ -106,6 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				55F9543525223FDE0080DC80 /* NetworkManager.swift */,
+				55634DB52522833E00B452C8 /* ImageManager.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -116,7 +180,6 @@
 				374F09B9E66671D10610FECE /* Pods-Simpsons.debug.xcconfig */,
 				66BBF34EA3F57A3C6066FEF7 /* Pods-Simpsons.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -189,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55F9542425223CE10080DC80 /* LaunchScreen.storyboard in Resources */,
+				55634DAD252279E800B452C8 /* Default-568h@2x.png in Resources */,
 				55F9542125223CE10080DC80 /* Assets.xcassets in Resources */,
 				55F9541F25223CDA0080DC80 /* Main.storyboard in Resources */,
 			);
@@ -244,12 +308,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				55F9543025223E240080DC80 /* StartViewModel.swift in Sources */,
+				55634DA82522794E00B452C8 /* QuoteViewModel.swift in Sources */,
 				55F9541C25223CDA0080DC80 /* StartViewController.swift in Sources */,
 				55F9541825223CDA0080DC80 /* AppDelegate.swift in Sources */,
+				55634DB02522813D00B452C8 /* QuoteTableViewCell.swift in Sources */,
 				55F9543625223FDE0080DC80 /* NetworkManager.swift in Sources */,
 				55F9541A25223CDA0080DC80 /* SceneDelegate.swift in Sources */,
+				55634DB42522817B00B452C8 /* QuoteTableViewCellViewModel.swift in Sources */,
+				55634DA62522793F00B452C8 /* QuoteViewModelProtocol.swift in Sources */,
+				55634DB62522833E00B452C8 /* ImageManager.swift in Sources */,
 				55F9542E25223E0F0080DC80 /* StartViewModelProtocol.swift in Sources */,
+				55634DA42522790700B452C8 /* QuoteTableViewController.swift in Sources */,
 				55F9543325223F780080DC80 /* Simpson.swift in Sources */,
+				55634DB22522816800B452C8 /* QuoteTableViewCellViewModelProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,7 +467,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 854Z63GAJD;
-				INFOPLIST_FILE = Simpsons/Info.plist;
+				INFOPLIST_FILE = Simpsons/Supports/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -415,7 +486,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 854Z63GAJD;
-				INFOPLIST_FILE = Simpsons/Info.plist;
+				INFOPLIST_FILE = Simpsons/Supports/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
